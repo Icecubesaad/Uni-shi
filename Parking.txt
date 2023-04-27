@@ -1,0 +1,5 @@
+Cars	Hours	Charge
+1	2	2
+2	4	2.5
+3	24	10
+TOTAL	30	14.5
