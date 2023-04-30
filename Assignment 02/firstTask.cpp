@@ -29,10 +29,9 @@ void ForEven(char arr[], int size)
     int j = 0;
     for (int i = size - 1; i >= 0; i--)
     {
-        reversed_arr[j] = arr[i];
+        reversed_arr[j] = arr[i];   //reverse loop to show elements in reverse order
         j++;
     }
-    cout << j << endl;
     cout << reversed_arr;
 }
 int main()
