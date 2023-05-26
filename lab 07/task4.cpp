@@ -1,13 +1,14 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int x=25;
-    int y=5;
-    int arr[2] = {x,y};
-    int differnece =1;
-    for(int i=1;i>=0;i--){
-        int* ptr  = &arr[i];
-        differnece = *ptr / differnece;
-    }
-    cout<<differnece;
+    float x;
+    float y;
+    cout<<"Enter the value of x : ";
+    cin>>x;
+    cout<<"Enter the value of y : ";
+    cin>>y;
+    float differnece =1;
+    differnece = x/y;
+    float *ptr  = &differnece;
+    cout<<"After division : "<<*ptr;
 }
