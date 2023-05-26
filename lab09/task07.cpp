@@ -20,7 +20,7 @@ void secondMax(int *arr){
       }
        
       else if (arr[i] > second && arr[i] != largest) {
-         second = arr[i];
+         second = arr[i] ;
       }
    }
     }
