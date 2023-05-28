@@ -5,7 +5,7 @@ int Check(int num)
     bool run = true;
     bool check = true;
     int i = 2;
-    while (i<num)
+    while (i<=num)
     {
             if (num % i == 0)
             {
