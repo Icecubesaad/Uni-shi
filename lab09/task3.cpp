@@ -4,7 +4,7 @@ float area(float* radius);
 int main()
 {
     float radius;
-    cout<<"Enter the radius of the circle";
+    cout<<"Enter the radius of the circle : ";
     cin>>radius;
     cout<<"Area of the circle is " << area(&radius);
 }

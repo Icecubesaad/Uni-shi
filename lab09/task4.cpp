@@ -22,13 +22,22 @@ void divide(float* num1, float* num2, float* ans){
         *ans = *num2 / *num1;
     }
 }
+void mod(float* num1, float* num2, float* ans){
+    int reminder=*num1;
+    int multiple=*num2;
+    for (int i = 0; multiple<reminder; i++)
+    {
+        multiple = *num2 * i;
+    }
+    *ans = reminder - (multiple-9);
+    
+}
 int main(){
     float answer=0;
     float num1;
     float num2;
     char op;
     cout<<"Enter the operation you want to perform : ";
-    cout<<op;
     cin>>op;
     cout<<"Enter the number 1 : ";
     cin>>num1;
@@ -44,6 +53,9 @@ int main(){
         add(&num1,&num2,&answer);
     }if(op == '-'){
         subtract(&num1,&num2,&answer);
+    }
+    if(op =='%'){
+        mod(&num1,&num2,&answer);
     }
     cout<<answer;
 }

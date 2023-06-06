@@ -7,7 +7,7 @@ float * temp( float * fptr){
 }
 int main(){
     float *ftpr = new float;
-    cout<<"Enter temperatur in farehiet : ";
+    cout<<"Enter temperature in farenhiet : ";
     cin>>*ftpr;
     cout<<"Temperature in celcius is : " << *temp(ftpr);
 }

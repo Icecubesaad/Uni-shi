@@ -5,6 +5,7 @@ int main(){
     int a=5;
     int b=7;
     cout<<"Before swap: \n a = "<<a<<" b = "<<b;
+    cout<<endl;
     swap(&a,&b);
 }
 void swap(int *a,int *b){
