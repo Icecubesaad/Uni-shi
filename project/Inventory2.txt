@@ -1,0 +1,2 @@
+Tomato	120	k	42
+DairyMilk	30	q	50
