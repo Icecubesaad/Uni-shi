@@ -1,0 +1,5 @@
+grains 280 k 40
+beans 200 k 200
+wheat 220 k 219
+
+spices 40 k 35

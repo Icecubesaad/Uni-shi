@@ -1,0 +1,5 @@
+SmartPhone 50000 q 15
+tv 100000 q 5
+headphone 20000 q 20
+camera 600 q 8
+Laptop 70000 q 9

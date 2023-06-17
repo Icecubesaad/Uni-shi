@@ -1,0 +1,5 @@
+tomatoes 50 q 10
+onions 30 q 10
+garlic 40 q 10
+carrots 25 q 10
+potato 60 q 10

@@ -1,0 +1,5 @@
+lipstick 500 q 10
+foundation 1000 q 10
+mascara 600 q 10
+eyeshadow palette 1500 q 10
+blush 400 q 10
