@@ -1,5 +1,5 @@
-tomatoes 50 q 10
-onions 30 q 10
-garlic 40 q 10
-carrots 25 q 10
-potato 60 q 10
+1 tomatoes 50 k 10
+2 turnip 120 k 19
+3 cucumber 34 k 22
+4 carrots 25 k 10
+5 potato 60 k 7

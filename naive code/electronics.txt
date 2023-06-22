@@ -1,0 +1,5 @@
+1 SmartPhone 50000 q 100
+2 tv 100000 q 100
+3 headphone 20000 q 100
+4 camera 600 q 100
+5 Laptop 70000 q 100

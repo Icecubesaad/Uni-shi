@@ -1,0 +1,5 @@
+1 food
+2 cosmetics
+3 confectionary
+4 electronics
+5 vegetables
