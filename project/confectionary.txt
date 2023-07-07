@@ -1,5 +1,5 @@
-1 chocolate 50 q 10
-2 candy 20 q 7
-3 biscuit 30 q 9
-4 gummy bear 15 q 10
-5 lollipop 10 q 1
+1 chocolate 50 q 100
+3 biscuit 30 q 100
+4 gummy bear 15 q 100
+5 lollipop 10 q 100
+2 candy 20 q 100

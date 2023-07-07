@@ -1,5 +1,0 @@
-1 grains 280 k 100
-2 beans 200 k 100
-3 wheat 220 k 100
-4 spices 40 k 100
-5 rice 240 k 100

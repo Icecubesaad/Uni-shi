@@ -1,5 +1,0 @@
-1 tomatoes 50 k 100
-2 turnip 120 k 100
-3 cucumber 34 k 100
-4 carrots 25 k 100
-5 potato 60 k 100
