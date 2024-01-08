@@ -33,9 +33,9 @@ class Student{
             this->rollNo=rollNo;
         }
         void DisplayStudentDate(){
-            cout<<" student name : "<<name;
-            cout<<"\n roll no : "<<rollNo;
-            cout<<"\n birth date : ";
+            cout<<"student name : "<<name;
+            cout<<"\nroll no : "<<rollNo;
+            cout<<"\nbirth date : ";
             b1.printBirthDate();
         }
 };

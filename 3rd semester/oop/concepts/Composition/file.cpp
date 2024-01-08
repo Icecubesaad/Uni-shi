@@ -8,7 +8,7 @@ class masterClass{
             cout<<"function called from master class\n";
         }
         void printd(){
-            cout<<"value of d is : "<<d;
+            cout<<"value of d is : "<<d<<endl;
         }
         void setd(int num){
             d=num;
