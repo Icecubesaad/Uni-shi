@@ -95,7 +95,10 @@ Zoo::Zoo(){
 	totalAnimals = 0;
 }
 void Zoo::addAnimal(Animal* newanimal){
-	this->animals[totalAnimals] = newanimal;
+	this->animals[totalAnimals] = newanimal;	// newanimal is a Animal type pointer and can contain the address of derived class objects for e.g: eagle, whale;
+	// this pointer can call these objects and access the public members of it.
+	// if the base and child classes have the same name member functions then the pointer will only call the function respective to its type.
+	// if you want to call the function of the object pointed by pointer newanimal then you have to make the main base function virtual and the derived classes functions override.
     totalAnimals++;
 }
 void Zoo::displayZooInfo(){
@@ -111,7 +114,6 @@ int main(){
     char whaleType[100] = "Fish";
     char whaleColor[100] = "grey";
     char whaleWeight[100] = "300kg";
-
     char eagleName[100] = "Eagle";
     char eagleType[100] = "Bird";
     char eaglePrey[100] = "rat";
